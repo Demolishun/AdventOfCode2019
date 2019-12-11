@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Day01_input.txt</file>
+        <file>Day01_input2.txt</file>
+    </qresource>
+</RCC>
