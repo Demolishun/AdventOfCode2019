@@ -2,6 +2,7 @@
 #include <QQmlApplicationEngine>
 
 #include "day01.h"
+#include "day02.h"
 
 /*
 
@@ -15,6 +16,7 @@ int main(int argc, char *argv[])
 
     QGuiApplication app(argc, argv);
 
+    /*
     QQmlApplicationEngine engine;
     const QUrl url(QStringLiteral("qrc:/main.qml"));
     QObject::connect(&engine, &QQmlApplicationEngine::objectCreated,
@@ -23,9 +25,11 @@ int main(int argc, char *argv[])
             QCoreApplication::exit(-1);
     }, Qt::QueuedConnection);
     engine.load(url);
+    */
 
     // days
-    Day01Main(argc, argv);
+    //Day01Main(argc, argv);
+    Day02Main(argc, argv);
 
-    return app.exec();
+    //return app.exec();
 }
