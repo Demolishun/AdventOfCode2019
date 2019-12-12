@@ -38,8 +38,8 @@ void Day02Main(int argc, char *argv[])
             qInfo() << "program complete";
             break;
         }
-        int a = *xiter++;
-        int b = *xiter++;
+        int a = program[*xiter++];
+        int b = program[*xiter++];
         int ptr = *xiter++;
 
         qInfo() << steps << op << a << b << ptr;
