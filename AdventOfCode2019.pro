@@ -16,6 +16,17 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         day01.cpp \
         day02.cpp \
+        day03.cpp \
+        day04.cpp \
+        day05.cpp \
+        day06.cpp \
+        day07.cpp \
+        day08.cpp \
+        day09.cpp \
+        day10.cpp \
+        day11.cpp \
+        day12.cpp \
+        day13.cpp \
         main.cpp \
         utils.cpp
 
@@ -36,6 +47,17 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 HEADERS += \
     day01.h \
     day02.h \
+    day03.h \
+    day04.h \
+    day05.h \
+    day06.h \
+    day07.h \
+    day08.h \
+    day09.h \
+    day10.h \
+    day11.h \
+    day12.h \
+    day13.h \
     utils.h
 
 DISTFILES +=
