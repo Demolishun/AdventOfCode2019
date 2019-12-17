@@ -3,5 +3,15 @@
         <file>Day01_input.txt</file>
         <file>Day01_input2.txt</file>
         <file>Day02_input.txt</file>
+        <file>Day03_input.txt</file>
+        <file>Day05_input.txt</file>
+        <file>Day06_input.txt</file>
+        <file>Day07_input.txt</file>
+        <file>Day08_input.txt</file>
+        <file>Day09_input.txt</file>
+        <file>Day10_input.txt</file>
+        <file>Day11_input.txt</file>
+        <file>Day12_input.txt</file>
+        <file>Day13_input.txt</file>
     </qresource>
 </RCC>

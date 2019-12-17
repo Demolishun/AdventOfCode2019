@@ -14,6 +14,9 @@ int calcFuelR(int mass, int accum=0){
 }
 
 void Day01Main(int argc, char *argv[]){
+    Q_UNUSED(argc)
+    Q_UNUSED(argv)
+
     auto data = Utils::readTextData(":/Day01_input.txt");
 
 //    for(auto str: data){
