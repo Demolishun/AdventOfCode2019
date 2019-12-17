@@ -81,7 +81,7 @@ void Day02Main(int argc, char *argv[])
     const int find = 19690720;
 
     // naive 2 loop approach
-    // "noun: 67, verb: 18, result: 120600, iterations: 9721"
+    // "noun: 67, verb: 18, result: 6718, iterations: 9919"
     int iterations = 0;
     for(int n = start; n <= finish; n++){
         for( int v = start; v <= finish; v++){
@@ -99,7 +99,7 @@ void Day02Main(int argc, char *argv[])
 
     if(output == find){
         //  final output
-        qInfo() << QString("noun: %1, verb: %2, result: %3, iterations: %4").arg(noun).arg(verb).arg(100 * noun * verb).arg(iterations);
+        qInfo() << QString("noun: %1, verb: %2, result: %3, iterations: %4").arg(noun).arg(verb).arg(100 * noun + verb).arg(iterations);
     }else{
         qInfo() << "Could not find noun and verb.";
     }
@@ -139,7 +139,7 @@ void Day02Main(int argc, char *argv[])
     int out;
     for(int n=start; n <= finish; n++){
         out = binarySearch(start, finish, find, [&, n](int v){
-            qInfo() << n << v;
+            //qInfo() << n << v;
             ++iterations;
             return intcodeMachineProgrammed(n,v);
         });
